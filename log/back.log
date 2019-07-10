@@ -1,0 +1,68 @@
+2019/07/01-16:58 [main] INFO  com.forezp.servicehi.ServiceHiApplication- The following profiles are active: dev
+2019/07/01-16:58 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@70f02c32: startup date [Mon Jul 01 16:58:11 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@145f66e3
+2019/07/01-16:58 [main] INFO  org.springframework.cloud.context.scope.GenericScope- BeanFactory id=4aaed344-531a-3613-a920-6a6e16b48ef8
+2019/07/01-16:58 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019/07/01-16:58 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9bc96212] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/07/01-16:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 27000 (http)
+2019/07/01-16:58 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/07/01-16:58 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.31
+2019/07/01-16:58 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Subversion\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\Git\cmd;E:\bin;E:\Java\jdk\bin;%MAVEN_HOME%\bin;E:\apache-maven-3.6.0\bin;E:\erl10.2\bin;E:\rabbitmq-server-3.7.12\rabbitmq_server-3.7.12\sbin;E:\NodeJs\;E:\Ruby22-x64\bin;C:\Users\HX105129\AppData\Local\Microsoft\WindowsApps;C:\Users\HX105129\AppData\Roaming\npm;E:\Microsoft VS Code\bin;.]
+2019/07/01-16:58 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/07/01-16:58 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1515 ms
+2019/07/01-16:58 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Servlet dispatcherServlet mapped to [/]
+2019/07/01-16:58 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+2019/07/01-16:58 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019/07/01-16:58 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019/07/01-16:58 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+2019/07/01-16:58 [main] WARN  com.netflix.config.sources.URLConfigurationSource- No URLs will be polled as dynamic configuration sources.
+2019/07/01-16:58 [main] INFO  com.netflix.config.sources.URLConfigurationSource- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019/07/01-16:58 [main] WARN  com.netflix.config.sources.URLConfigurationSource- No URLs will be polled as dynamic configuration sources.
+2019/07/01-16:58 [main] INFO  com.netflix.config.sources.URLConfigurationSource- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019/07/01-16:58 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019/07/01-16:58 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@70f02c32: startup date [Mon Jul 01 16:58:11 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@145f66e3
+2019/07/01-16:58 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/hi]}" onto public java.lang.String com.forezp.servicehi.ServiceHiApplication.home(java.lang.String)
+2019/07/01-16:58 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019/07/01-16:58 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019/07/01-16:58 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019/07/01-16:58 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019/07/01-16:58 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+2019/07/01-16:58 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019/07/01-16:58 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019/07/01-16:58 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019/07/01-16:58 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019/07/01-16:58 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019/07/01-16:58 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=70f02c32,type=ConfigurationPropertiesRebinder]
+2019/07/01-16:58 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor- Starting beans in phase 0
+2019/07/01-16:58 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory- Setting initial instance status as: STARTING
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Initializing Eureka in region us-east-1
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider- Using JSON encoding codec LegacyJacksonJson
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider- Using JSON decoding codec LegacyJacksonJson
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider- Using XML encoding codec XStreamXml
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider- Using XML decoding codec XStreamXml
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Disable delta property : false
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Single vip registry refresh property : null
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Force full registry fetch : false
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Application is null : false
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Registered Applications size is zero : true
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Application version is -1: true
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Getting all instance registry info from the eureka server
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- The response status is 200
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Starting heartbeat executor: renew interval is: 30
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.InstanceInfoReplicator- InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Discovery Client initialized at timestamp 1561971495367 with initial instances count: 0
+2019/07/01-16:58 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry- Registering application service-hi with eureka with status UP
+2019/07/01-16:58 [main] INFO  com.netflix.discovery.DiscoveryClient- Saw local status change event StatusChangeEvent [timestamp=1561971495376, current=UP, previous=STARTING]
+2019/07/01-16:58 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient- DiscoveryClient_SERVICE-HI/10.121.64.26:service-hi:27000: registering service...
+2019/07/01-16:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 27000 (http) with context path ''
+2019/07/01-16:58 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration- Updating port to 27000
+2019/07/01-16:58 [main] INFO  com.forezp.servicehi.ServiceHiApplication- Started ServiceHiApplication in 20.755 seconds (JVM running for 21.707)
+2019/07/01-16:58 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient- DiscoveryClient_SERVICE-HI/10.121.64.26:service-hi:27000 - registration status: 204
+2019/07/01-16:58 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- Disable delta property : false
+2019/07/01-16:58 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- Single vip registry refresh property : null
+2019/07/01-16:58 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- Force full registry fetch : false
+2019/07/01-16:58 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- Application is null : false
+2019/07/01-16:58 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- Registered Applications size is zero : true
+2019/07/01-16:58 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- Application version is -1: false
+2019/07/01-16:58 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- Getting all instance registry info from the eureka server
+2019/07/01-16:58 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- The response status is 200
